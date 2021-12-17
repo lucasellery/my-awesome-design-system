@@ -29,7 +29,7 @@ const App = () => {
           backgroundColor: '#a9fbd7',
           padding: '10px 20px'
         }}
-        onClick={() => setShowModal(true)}
+        onClick={() => setShowModal(!showModal)}
       >
         Show Modal
       </button>
